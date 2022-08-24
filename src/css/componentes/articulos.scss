@@ -1,0 +1,23 @@
+.articulos{
+    display: grid;
+    
+}
+
+.articulo{
+    border-bottom: 3px solid $color-secundario;
+    margin: 4vh;
+    .articulo__categoria{
+        font-size: 16px;
+        font-weight: 500;
+        @include titulos($fuente2);
+        color: $color-secundario;
+    }
+    .articulo__titulo{
+        font-size: clamp(1.6rem, 2.5vw, 2.6rem); 
+        @include titulos($fuente2);
+    }
+    .articulo__descripcion{
+        font-size: clamp(1.2rem, 2.5vw, 2rem);
+        padding: 13px 0;
+    }
+}  
