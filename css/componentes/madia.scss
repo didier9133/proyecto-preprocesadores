@@ -1,0 +1,15 @@
+@media (min-width:928px){
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media (max-width:820px){
+  .header--principal{
+    justify-content: center;
+  }
+  .logo.logo--header{
+    display: none;
+  }
+}

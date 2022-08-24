@@ -1,0 +1,37 @@
+.footer--principal{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;    
+}
+
+.logo.logo--footer{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.logo--footer img{
+    width: 100%;
+}
+
+.nav--social{
+    margin-left: auto;
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none;
+        margin-right: 20px;
+        @include titulos($fuente2);
+        font-size: clamp(1.6rem, 2vw, 2.6rem); 
+        
+    }
+    a{
+        color:$color-variacion
+        
+    }    
+}
